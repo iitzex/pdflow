@@ -25,7 +25,7 @@ def fr24(timestamp, page=1, airport='tpe'):
         ('plugin-setting/[schedule/]/[timestamp/]', timestamp),
         ('page', page),
         ('limit', '100'),
-        ('token', 'qPgPtpctGA0YZPTS9NF_mD6QVwq27mkhfOawf2qaSh4'),
+        ('token', ''),
     )
 
     response = requests.get(
